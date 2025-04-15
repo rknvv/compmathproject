@@ -14,7 +14,7 @@ example repo for a solver project
     -  tests/              # Unit tests
 
 Отрисовка в примере сделана с помощью библиотеки [plotly](https://plotly.com/python/animations/). 
-Это быстрое решение, хотя более-менее стандартным и общепринятым является всё-таки использовние библиотеки [vtk](https://docs.vtk.org/en/latest/api/python.html) и отрисовщика [paraview](https://www.paraview.org/). По их использованию см [руководство]()
+Это быстрое решение, хотя более-менее стандартным и общепринятым является всё-таки использовние библиотеки [vtk](https://docs.vtk.org/en/latest/api/python.html) и отрисовщика [paraview](https://www.paraview.org/). По их использованию см [руководство](https://github.com/yudai-patronai/miniscience-4th-term/tree/master/2025/02_vtk)
 
 
 Вызов солвера оформлен как приложение на сервере [uvicorn](https://www.uvicorn.org/#command-line-options)
@@ -27,7 +27,15 @@ example repo for a solver project
 
 Решалась задача Дирихле для 1-мерного уравнения теплопроводности.
 
+$$
+\partial_t u = \partial^2_{xx} u 
+$$
 
+с граничными условиями 
+
+$$
+u|_{t=0} = u_0, u|_{x=0} = u_L ,  u|_{x=X} = u_R
+$$
 
 Выполнили 
  - Вася Иванов (гр 102), Федя Федоров(гр 103), Мария Маринина(гр 104). 
