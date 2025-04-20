@@ -14,7 +14,7 @@ $$
 \frac{\partial U}{\partial t} &= D_u \nabla^2 U - UV^2 + F(1-U) \\
 \frac{\partial V}{\partial t} &= D_v \nabla^2 V + UV^2 - (F+k)V
 \end{aligned}
-\right.
+\right\}
 $$
 
 где:
