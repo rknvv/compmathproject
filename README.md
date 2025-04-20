@@ -156,5 +156,5 @@ from visualize import GrayScottVisualizer
 URL = "http://localhost:8000"
 visualizer = GrayScottVisualizer(URL)
 
-vis.display()
+visualizer.display()
 ```
